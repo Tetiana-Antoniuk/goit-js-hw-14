@@ -12,8 +12,8 @@ function handlerSubmit(evt) {
   };
   console.log(data);
 
-  if (!data.email|| !data.password) {
-    alert("Please fill fields")
+  if (!data.email || !data.password) {
+    return alert("Please fill fields")
   };
 
   document.querySelector(".login-form").reset();
